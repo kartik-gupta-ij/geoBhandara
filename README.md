@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🏕️ YelpCamp 🌲</h1>
+  <h1>🏕️ geoBhandara 🌲</h1>
 </div>
 
 <div align="center">
@@ -239,7 +239,7 @@ DELETE    /campgrounds/:id/comments/:cid  Delete comment
 - [express](https://gulpjs.com/)
 - [mongodb](https://webpack.js.org/concepts/)
 
-Check [`package.json`](https://github.com/kartik-gupta-ij/yelpcamp7267/blob/master/package.json) file for more information.
+Check [`package.json`](https://github.com/kartik-gupta-ij/geoBhandara7267/blob/master/package.json) file for more information.
 
 # Getting Started
 
@@ -249,7 +249,7 @@ Follow the instructions below to set up the environment and run this project on 
 
 ```bash
 # Clone repository
-$ git clone https://github.com/kartik-gupta-ij/yelpcamp7267.git
+$ git clone https://github.com/kartik-gupta-ij/geoBhandara7267.git
 ```
 
 2. Install dependencies via NPM or Yarn
@@ -274,12 +274,12 @@ $ npm run dev
 
 
 
-# YelpCamp PH
-A Filipino version of YelpCamp ~ from The Web Developer Bootcamp 2021 by Colt Steele: https://www.udemy.com/course/the-web-developer-bootcamp/ 
+# geoBhandara PH
+A Filipino version of geoBhandara ~ from The Web Developer Bootcamp 2021 by Colt Steele: https://www.udemy.com/course/the-web-developer-bootcamp/ 
 
 
 Deployed on Heroku:
-https://yelpcamp7267.herokuapp.com/
+https://geoBhandara7267.herokuapp.com/
 
 
 Stack:
