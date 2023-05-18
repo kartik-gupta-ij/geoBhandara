@@ -13,9 +13,9 @@
 ## Initial Setup
 
 - [x] Add Landing Page
-- [x] Add Campgrounds Page that lists all campgrounds
+- [x] Add Bhandaras Page that lists all bhandaras
 
-## Each Campground has:
+## Each Bhandara has:
 
 - [x] Name
 - [x] Image
@@ -25,33 +25,33 @@
 - [x] Create our header and footer partials
 - [x] Add in Bootstrap
 
-## Creating New Campgrounds
+## Creating New Bhandaras
 
-- [x] Setup new campground POST route
+- [x] Setup new bhandara POST route
 - [x] Add in body-parser
 - [x] Setup route to show form
 - [x] Add basic unstyled form
 
-## Style the campgrounds page
+## Style the bhandaras page
 
 - [x] Add a better header/title
-- [x] Make campgrounds display in a grid
+- [x] Make bhandaras display in a grid
 
 ## Style the Navbar and Form
 
 - [x] Add a navbar to all templates
-- [x] Style the new campground form
+- [x] Style the new bhandara form
 
 ## Add Mongoose
 
 - [x] Install and configure Mongoose
-- [x] Setup campground model
-- [x] Use campground model inside of our routes
+- [x] Setup bhandara model
+- [x] Use bhandara model inside of our routes
 
 ## Show Page
 
 - [x] Review the RESTful routes we've seen so far
-- [x] Add description to our campground model
+- [x] Add description to our bhandara model
 - [x] Show db.collection.drop()
 - [x] Add a show route/template
 
@@ -69,7 +69,7 @@
 ## Add the Comment model
 
 - [x] Make our errors go away
-- [x] Display comments on campground show page
+- [x] Display comments on bhandara show page
 
 ## Comment New/Create
 
@@ -122,27 +122,27 @@
 - [x] Associate users and comments
 - [x] Save author's name to a comment automatically
 
-## Users + Campgrounds
+## Users + Bhandaras
 
-- [x] Prevent an unauthenticated user from creating a campground
-- [x] Save username + id to newly created campground
+- [x] Prevent an unauthenticated user from creating a bhandara
+- [x] Save username + id to newly created bhandara
 
-## Editing Campgrounds
+## Editing Bhandaras
 
 - [x] Add method override
-- [x] Add edit route for campgrounds
+- [x] Add edit route for bhandaras
 - [x] Add link to edit page
 - [x] Add update route
 
-## Deleting Campgrounds
+## Deleting Bhandaras
 
 - [x] Add destroy route
 - [x] Add delete button
 
 ## Authorization (permission)
 
-- [x] User can only edit his/her campgrounds
-- [x] User can only delete his/her campgrounds
+- [x] User can only edit his/her bhandaras
+- [x] User can only delete his/her bhandaras
 - [x] Hide/Show edit and delete buttons
 
 ## Editing comments
@@ -209,26 +209,26 @@ GET       /sessions/login         Request the user login page
 DELETE    /sessions               Delete a session (user logout)
 
 -------------------------------------------------------------------------
-Campgrounds Route
+Bhandaras Route
 -------------------------------------------------------------------------
 [Method]  [Route]
-GET       /campgrounds            Fetch all campgrounds
-POST      /campgrounds            Create a new campground to database
-GET       /campgrounds/new        Request the campground adding page
-GET       /campgrounds/:id        Show the campground information
-PUT       /campgrounds/:id        Update campground information (all)
-PATCH     /campgrounds/:id        Update campground information (part)
-DELETE    /campgrounds/:id        Delete a campground
-GET       /campgrounds/:id/edit   Request the campground editing page
-POST      /campgrounds/:id/likes  Like the campground
+GET       /bhandaras            Fetch all bhandaras
+POST      /bhandaras            Create a new bhandara to database
+GET       /bhandaras/new        Request the bhandara adding page
+GET       /bhandaras/:id        Show the bhandara information
+PUT       /bhandaras/:id        Update bhandara information (all)
+PATCH     /bhandaras/:id        Update bhandara information (part)
+DELETE    /bhandaras/:id        Delete a bhandara
+GET       /bhandaras/:id/edit   Request the bhandara editing page
+POST      /bhandaras/:id/likes  Like the bhandara
 
 -------------------------------------------------------------------------
 Comments Route
 -------------------------------------------------------------------------
 [Method]  [Route]
-POST      /campgrounds/:id/comments       Create a new comment
-PATCH     /campgrounds/:id/comments/:cid  Update comment
-DELETE    /campgrounds/:id/comments/:cid  Delete comment
+POST      /bhandaras/:id/comments       Create a new comment
+PATCH     /bhandaras/:id/comments/:cid  Update comment
+DELETE    /bhandaras/:id/comments/:cid  Delete comment
 ```
 
 # Technologies
@@ -323,17 +323,17 @@ Leaving a Review
 ![image](https://user-images.githubusercontent.com/73538719/114261965-dbef1d80-9a0f-11eb-92ba-a8a1b0a91bfc.png)
 
 
-Campgrounds by Current User
+Bhandaras by Current User
 
 ![Screenshot from 2021-04-10 15-20-22](https://user-images.githubusercontent.com/73538719/114262465-a566d200-9a12-11eb-866a-e1790a064c84.png)
 
 
-Adding a New Campground
+Adding a New Bhandara
 
 ![image](https://user-images.githubusercontent.com/73538719/114262124-d514da80-9a10-11eb-8f39-00779dc5c6ed.png)
 
 
-Editing a Campground
+Editing a Bhandara
 
 ![image](https://user-images.githubusercontent.com/73538719/114262218-4bb1d800-9a11-11eb-8ac6-0133a60bf6d8.png)
 ![image](https://user-images.githubusercontent.com/73538719/114262284-b6fbaa00-9a11-11eb-8e10-fefbfcbf46ae.png)
