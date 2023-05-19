@@ -287,16 +287,6 @@ $ npm start
 
 
 # geoBhandara PH
-A Filipino version of geoBhandara ~ from The Web Developer Bootcamp 2021 by Colt Steele: https://www.udemy.com/course/the-web-developer-bootcamp/ 
-
-
-Deployed on Heroku:
-https://geoBhandara7267.herokuapp.com/
-
-
-Stack:
-Node JS, Express JS, MongoDB, Mongoose, EJS
-
 
 <h2>Gallery</h2>
 
