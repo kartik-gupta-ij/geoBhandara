@@ -270,7 +270,7 @@ $ yarn install
 
 ```bash
 # Run server
-$ npm run dev
+$ npm start
 ```
 
 
