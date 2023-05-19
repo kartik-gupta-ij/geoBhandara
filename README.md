@@ -253,7 +253,7 @@ Follow the instructions below to set up the environment and run this project on 
 
 ```bash
 # Clone repository
-$ git clone https://github.com/kartik-gupta-ij/geoBhandara7267.git
+$ git clone https://github.com/kartik-gupta-ij/geoBhandara.git
 ```
 
 2. Install dependencies via NPM or Yarn
