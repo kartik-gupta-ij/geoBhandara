@@ -265,8 +265,16 @@ $ npm install
 # Install dependencies via yarn
 $ yarn install
 ```
+3. Setup `.env` file using example.env
+```
+MAPBOX_TOKEN=
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_KEY=
+CLOUDINARY_SECRET=
+DB_URL=
+```
 
-3. Run the server with [nodemon](https://nodemon.io/) and open a browser to visit [http://localhost:3000/](http://localhost:3000/).
+4. Run the server with [nodemon](https://nodemon.io/) and open a browser to visit [http://localhost:3000/](http://localhost:3000/).
 
 ```bash
 # Run server
